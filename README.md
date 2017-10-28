@@ -9,17 +9,18 @@ G-Bufferを操作してそれっぽくすることにより追加のForward描�
 詳細はかなり簡単なのでHojoDeferredWater.shaderの中身を見ればいい
 
 # 使い方
-HojoDeferredWaterCommandDispatcherの中を見ろ
+HojoDeferredWaterCommandDispatcherの中を見ろ HojoDeferredWaterByMeshRenderer.csはHojoDeferredWaterCommandDispatcherを使って実際に描画するMonoBehaviourサンプル
 
 **_尚、まともな見栄えになるには空だけを描画したようなReflection Probeと
 スクリーンスペースリフレクションが必要_**
 
-超簡単に使いたい場合は
-HojoDeferredWaterByMeshRendererが使える
-Material waterMaterial
-はHojoDeferredWater.shaderをマテリアルにしろ
+**HDR,Deferredでのみ動くと思われる**
 
-HDR,Deferredでのみ動くと思われる
+Material waterMaterialはHojoDeferredWater.shaderをマテリアルにしろ
+
+
+
+
 
 # 謝罪
 超適当にプロジェクトから持ってきたので、
