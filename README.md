@@ -19,7 +19,6 @@ HojoDeferredWaterByMeshRendererが使える
 Material waterMaterial
 はHojoDeferredWater.shaderをマテリアルにしろ
 
-# 用法
 HDR,Deferredでのみ動くと思われる
 
 # 謝罪
