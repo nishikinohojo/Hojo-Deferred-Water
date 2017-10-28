@@ -5,13 +5,14 @@
 
 # Hojo-Deferred-Water
 UNITY向け、簡易ディファード水
-G-Bufferを操作してそれっぽくすることにより、
-追加のForward描画をせずに半透明の水を描画している
-（いくつか制約はある）
+G-Bufferを操作してそれっぽくすることにより追加のForward描画をせずに半透明の水を描画している
 詳細はかなり簡単なのでHojoDeferredWater.shaderの中身を見ればいい
 
 # 使い方
 HojoDeferredWaterCommandDispatcherの中を見ろ
+
+**_尚、まともな見栄えになるには空だけを描画したようなReflection Probeと
+スクリーンスペースリフレクションが必要_**
 
 超簡単に使いたい場合は
 HojoDeferredWaterByMeshRendererが使える
